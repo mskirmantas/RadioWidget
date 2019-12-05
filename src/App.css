@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+}
+h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.75rem;
+  font-family:'HelveticaNeue', sans-serif;
+  font-weight: bold;
+}
+h2, h3 {
+  color: #a2abbd;
+  font-size: 2.75rem;
+}
+h2{
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: 300; 
+}
+h3 {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: bold;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  color: #edae61;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+button {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+}
+button:active{
+  transform: scale(0.98);
+}
+.btn-back {
+  background-image: url("./assets/buttons/back-arrow.png");
+  width: 50px;
+  height: 50px;
+}
+.btn-switch {
+  background-image: url("./assets/buttons/switch.png");
+  width: 50px;
+  height: 50px;
+}
+.btn-vol-down {
+  background-image: url("./assets/buttons/minus.png");
+  width: 65px;
+  height: 65px;
+}
+.btn-vol-up {
+  background-image: url("./assets/buttons/plus.png");
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (max-width:900px){
+
+  h1, h2, h3 {
+    font-size: 2.125rem;
+  }
+  h4 {
+    font-size: 1.185rem;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Buttons */
+  .btn-back, .btn-switch {
+    width: 40px;
+    height: 40px;
+  }
+  .btn-vol-down, .btn-vol-up {
+    width: 45px;
+    height: 45px;
+  }
+  
+}
+
+@media screen and (max-width:600px){
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Buttons */
+  .btn-back, .btn-switch {
+    width: 25px;
+    height: 25px;
+  }
+  .btn-vol-down, .btn-vol-up {
+    width: 30px;
+    height: 30px;
+  }
+}

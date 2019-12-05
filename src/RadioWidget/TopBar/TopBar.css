@@ -1,0 +1,14 @@
+.TopBar {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  background-color: #edae61;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
