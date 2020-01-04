@@ -38,7 +38,7 @@ class RadioWidget extends Component {
             <StationList
               stations={stations}
               activeStationID={this.state.activeStationID}
-              onStationClick={(id) => this.setActiveStationID(id)}
+              onStationClick={this.setActiveStationID}
             />
             <BottomBar
               activeStation={this.activeStation}
