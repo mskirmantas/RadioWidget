@@ -36,6 +36,7 @@
     min-height: 20vh;
     border-radius: 50%;
     border: 2px solid #a2abbd;
+    cursor: pointer;
 }
 
 /* Radio Station Theme Images */
