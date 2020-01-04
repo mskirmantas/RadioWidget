@@ -31,30 +31,11 @@
     cursor: auto;
 }
 .station-img{
-    background-size: cover;
-    min-width: 20vh;
-    min-height: 20vh;
+    width: 20vh;
+    height: 20vh;
     border-radius: 50%;
     border: 2px solid #a2abbd;
     cursor: pointer;
-}
-
-/* Radio Station Theme Images */
-
-#Putin {
-    background-image: url("../../../assets/images/1.jpg");
-}
-#Dribbble {
-    background-image: url("../../../assets/images/2.jpg");
-}
-#Doge {
-    background-image: url("../../../assets/images/3.jpg");
-}
-#Ballads {
-    background-image: url("../../../assets/images/4.jpg");
-}
-#Maximum {
-    background-image: url("../../../assets/images/5.jpg");
 }
 
 @media screen and (max-width:900px){

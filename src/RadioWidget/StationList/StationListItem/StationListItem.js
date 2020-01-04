@@ -9,7 +9,9 @@ const StationListItem = (props) => {
             {props.isActive ? 
                 <div className="station-active">     
                     <button className="btn-vol-down" />                 
-                    <div id={props.station.id} className="station-img" onClick={props.onClick}/>                   
+                    <div onClick={props.onClick}>  
+                        <img className="station-img" src={props.station.stationImage} /> 
+                    </div>          
                     <button className="btn-vol-up" />
                 </div>         
             : null}    
@@ -22,4 +24,3 @@ const StationListItem = (props) => {
     )
   }
   export default StationListItem;
-
