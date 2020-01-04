@@ -18,8 +18,7 @@ class RadioWidget extends Component {
         activeStationID: undefined
     }
 
-    // Toggle station
-    setActiveStationID = (stationID) => { 
+    toggleActiveStation = (stationID) => { 
         this.setState({ activeStationID: stationID });
         if(this.state.activeStationID === stationID){
             this.setState({ activeStationID: undefined });
@@ -38,7 +37,7 @@ class RadioWidget extends Component {
             <StationList
               stations={stations}
               activeStationID={this.state.activeStationID}
-              onStationClick={this.setActiveStationID}
+              onStationClick={this.toggleActiveStation}
             />
             <BottomBar
               activeStation={this.activeStation}
