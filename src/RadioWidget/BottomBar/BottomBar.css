@@ -1,10 +1,10 @@
 .BottomBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 15vh;
-    background-color: #22222b;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-top: 2px solid #4d505c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 15vh;
+  background-color: #22222b;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top: 2px solid #4d505c;
 }
